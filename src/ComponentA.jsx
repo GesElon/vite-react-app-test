@@ -1,7 +1,6 @@
 import { useState, createContext, Suspense, lazy } from "react";
 import ComponentB from "./ComponentB.jsx";
 import LoadingGradient from "./LoadingGradient.jsx";
-import BalanceEquation from "./BalanceEquation.jsx";
 
 export const UserContext = createContext();
 
@@ -22,7 +21,6 @@ function ComponentA() {
                     <LazyComponent />
                 </Suspense>
             </div>
-            <BalanceEquation />
         </div>
     );
 }
