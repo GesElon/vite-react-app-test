@@ -1,1 +1,0 @@
-import{j as t}from"./index-DuwMD9vK.js";const e="/vite-react-app-test/assets/profile-pic-Dor8cJSG.gif";function s(){return t.jsxs(t.Fragment,{children:[t.jsx("img",{src:e,style:{width:"100%",height:"100%"}}),t.jsx("figcaption",{style:{textAlign:"center"},children:"This is a lazily loaded component!"})]})}export{s as default};
