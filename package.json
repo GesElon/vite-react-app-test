@@ -13,9 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "blurhash": "^2.0.5",
     "gh-pages": "^6.3.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-blurhash": "^0.3.0",
+    "react-dom": "^19.1.1",
+    "vite-plugin-commonjs": "^0.10.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

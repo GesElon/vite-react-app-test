@@ -16,11 +16,11 @@ function ComponentA() {
             <UserContext.Provider value={user}>
                 <ComponentB />
             </UserContext.Provider>
-            <div style={{width: "256px", height: "256px", borderRadius: '1rem', margin: '1rem'}}>
+            {/* <div style={{width: "256px", height: "256px", borderRadius: '1rem', margin: '1rem'}}>
                 <Suspense fallback={<LoadingGradient />}>
                     <LazyComponent />
                 </Suspense>
-            </div>
+            </div> */}
         </div>
     );
 }
